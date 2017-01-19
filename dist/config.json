@@ -1,17 +1,17 @@
 {
   "vars": {
-    "@gray-base": "#000",
-    "@gray-darker": "darken(@gray-dark, 6.5%)",
+    "@gray-base": "#16191D",
+    "@gray-darker": "#3F4B4F",
     "@gray-dark": "#242A31",
-    "@gray": "lighten(@gray-dark, 13.5%)",
-    "@gray-light": "lighten(@gray-dark, 26.7%)",
-    "@gray-lighter": "lighten(@gray-dark, 73.5%)",
-    "@brand-primary": "#5CB3D4",
+    "@gray": "#747C7E",
+    "@gray-light": "#8F999D",
+    "@gray-lighter": "#C2C8C9",
+    "@brand-primary": "#17A4D8",
     "@brand-success": "#5cb85c",
     "@brand-info": "#5bc0de",
     "@brand-warning": "#f0ad4e",
     "@brand-danger": "#d9534f",
-    "@body-bg": "#F8FAF9",
+    "@body-bg": "#fff",
     "@text-color": "@gray-dark",
     "@link-color": "@brand-primary",
     "@link-hover-color": "darken(@link-color, 15%)",
@@ -431,5 +431,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=ead67927c47b9627de1ee834a89d2530"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=9973e3e3373801cad303f5feb5768f8b"
 }
