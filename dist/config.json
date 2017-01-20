@@ -13,8 +13,8 @@
     "@brand-danger": "#d9534f",
     "@body-bg": "#fff",
     "@text-color": "@gray-dark",
-    "@link-color": "@brand-primary",
-    "@link-hover-color": "darken(@link-color, 15%)",
+    "@link-color": "#0794C9",
+    "@link-hover-color": "#16191D",
     "@link-hover-decoration": "underline",
     "@font-family-sans-serif": "\"Roboto\", Helvetica, Arial, sans-serif",
     "@font-family-serif": "Georgia, \"Times New Roman\", Times, serif",
@@ -378,7 +378,6 @@
     "@blockquote-border-color": "@gray-lighter",
     "@page-header-border-color": "@gray-lighter",
     "@dl-horizontal-offset": "@component-offset-horizontal",
-    "@dl-horizontal-breakpoint": "@grid-float-breakpoint",
     "@hr-border": "@gray-lighter"
   },
   "css": [
@@ -431,5 +430,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=9973e3e3373801cad303f5feb5768f8b"
+  "customizerUrl": "http://127.0.0.1:50019/customize/?id=0188e51e97499ab33ccbe6e9892c6e54"
 }
