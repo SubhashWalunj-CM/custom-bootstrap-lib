@@ -1,0 +1,77 @@
+/* Theme */
+/* Colors */
+/* Sizes */
+div.addui-Toggle-field {
+  display: inline-block;
+  margin: 0;
+/*  padding: 16px;*/
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  cursor: pointer;
+}
+
+div.addui-Toggle-field * {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+div.addui-Toggle-field div.addui-Toggle {
+      display: inline-block;
+    background: #c6cccd;
+    width: 42px;
+    height: 15.47px;
+    border-radius: 99px;
+    position: relative;
+    margin: 7px;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+div.addui-Toggle-field div.addui-Toggle div.addui-Toggle-handle {
+      display: inline-block;
+    width: 21px;
+    height: 21px;
+    border-radius: 99px;
+    background: linear-gradient(180deg, #F5F7F7 0%, #E8EDED 100%);
+    position: absolute;
+    top: -3px;
+    left: 0;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.23), 0 2px 4px 0 rgba(0,0,0,0.37);
+    transition: left 0.5s, background 0.5s, box-shadow 0.5s;
+}
+
+div.addui-Toggle-field.addui-Toggle-on div.addui-Toggle {
+  background-color: #78CB4F;
+}
+
+div.addui-Toggle-field.addui-Toggle-on div.addui-Toggle .addui-Toggle-handle {
+  left: 21px;
+/*
+  background: #3f51b5;
+  box-shadow: 0 0 3px rgba(63, 81, 181, 0.5);
+*/
+}
+
+div.addui-Toggle-field div.addui-Toggle-placeholder {
+  display: inline-block;
+  width: calc(100% - 100px);
+  height: 20px;
+  line-height: 20px;
+  vertical-align: top;
+  padding: 0 16px;
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.toggle-sm { 
+    width: 30px !important;
+    height: 11.05px !important;
+}
+.toggle-sm > .addui-Toggle-handle {
+    width: 15px !important;
+    height: 15px !important;
+    top: -2px !important;
+}
+
+.white-tooltip + .tooltip > .tooltip-inner {background-color: #fff !important; color: #000 !important;}
+.white-tooltip + .tooltip > .tooltip-arrow { border-bottom-color:#fff !important; }
