@@ -1,0 +1,189 @@
+/* Tab Start */
+
+.nav-tabs > li > a {   
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus , .nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus {
+    color: #242A31;
+    background-color: #ffffff;
+    border: none;
+    border-bottom: 3px solid #242A31;
+    cursor: default;
+}
+.nav-tabs > li > a:hover {
+    border-color: transparent;   
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: transparent;
+}
+.nav-tabs {
+    border-bottom: 1px solid #8F999D;
+}
+
+@media (min-width: 768px) {
+    .nav-tabs.nav-justified > li > a {
+        border-bottom: 1px solid #8F999D;
+    }
+}
+
+/* Tab End */
+
+/* Shape Start */
+.shape-default{
+    width: 110px;
+    height: 110px;
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.05);
+    border: 1px solid #D7DCDF;
+    border-radius: 3px;
+    display: inline-block;
+}
+.shape-grey{
+width: 114px;
+height: 110px;
+background-color: #E8EDED;
+border: 1px solid #E5EAEC;
+border-radius: 3px;
+    display: inline-block;
+}
+
+.shape-default-shadow{
+width: 110px;
+height: 110px;
+background-color: #FFFFFF;
+box-shadow: 0 3px 10px 0 rgba(63,75,79,0.5);
+border: 1px solid #8F999D;
+border-radius: 3px;
+    display: inline-block;
+}
+
+.shape-default-flat{
+width: 110px;
+height: 110px;
+background-color: #FFFFFF;
+border: 1px solid #C6CCCD;
+border-radius: 3px;
+display: inline-block;
+}
+
+.shape-grey-bordered{
+width: 110px;
+height: 110px;
+background-color: #E8EDED;
+border: 1px solid #C2C8C9;
+border-radius: 3px;
+display: inline-block;
+}
+
+.shape-default-muted{
+width: 110px;
+height: 110px;
+background-color: #FFFFFF;
+border: 1px solid #DEE3E2;
+border-radius: 3px;
+display: inline-block;
+}
+
+.shape-blue-bordered{
+width: 110px;
+height: 110px;
+background-color: #F2FCFF;
+border: 3px solid #54BEE7;
+border-radius: 3px;
+display: inline-block;
+}
+
+.shape-green-bordered{
+width: 110px;
+height: 110px;
+background-color: #F2FFEB;
+border: 3px solid #62C87F;
+border-radius: 3px;
+display: inline-block;
+}
+
+.shape-grey-pattern{
+width: 110px;
+height: 110px;
+    background-color: #eeeeee;
+     background-image:repeating-linear-gradient(125deg, transparent, transparent 2px, rgba(184,183,183,0.25) 2px, rgba(184,183,183,0.25) 6px);
+/*background-color: rgba(184,183,183,0.25);*/
+border-radius: 3px;
+display: inline-block;
+}
+
+.top-margin-md {
+    margin-top: 15px;
+}
+
+/* Shape End */
+
+/* Tooltip Start */
+
+.white-tooltip + .tooltip.left > .tooltip-inner {
+  background-color: #ffffff !important;
+      color: #000000 !important;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.13);
+    border: 1px solid #C6CCCD;
+}
+
+.white-tooltip + .tooltip.left > .tooltip-arrow {
+  border-left-color: #C6CCCD !important;
+}
+
+.white-tooltip + .tooltip.bottom > .tooltip-inner {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.13);
+    border: 1px solid #C6CCCD;
+}
+.white-tooltip + .tooltip.bottom > .tooltip-arrow {
+  border-bottom-color: #C6CCCD !important;
+}
+
+.white-tooltip + .tooltip.top > .tooltip-inner {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.13);
+    border: 1px solid #C6CCCD;
+}
+.white-tooltip + .tooltip.top > .tooltip-arrow {
+  border-top-color: #C6CCCD !important;
+}
+
+.white-tooltip + .tooltip.right > .tooltip-inner {
+  background-color: #ffffff !important;
+  color: #000000;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.13);
+    border: 1px solid #C6CCCD;
+}
+.white-tooltip + .tooltip.right > .tooltip-arrow {
+  border-right-color: #C6CCCD !important;
+}
+
+/* Tooltip End */
+
+/* Heading Start */
+h1 {
+    font-size: 24px !important;
+    font-weight: 500 !important;  
+}
+h2{
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
+h3{
+    font-size: 16px !important;
+    font-weight: 500 !important; 
+}
+h4{
+    font-size: 18px !important; 
+}
+h5{
+    font-size: 16px !important;
+}
+
+
+/* Heading End */
