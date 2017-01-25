@@ -73,5 +73,3 @@ div.addui-Toggle-field div.addui-Toggle-placeholder {
     top: -2px !important;
 }
 
-.white-tooltip + .tooltip > .tooltip-inner {background-color: #fff !important; color: #000 !important;}
-.white-tooltip + .tooltip > .tooltip-arrow { border-bottom-color:#fff !important; }
