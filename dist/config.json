@@ -48,8 +48,8 @@
     "@padding-xs-horizontal": "5px",
     "@line-height-large": "1.3333333",
     "@line-height-small": "1.5",
-    "@border-radius-base": "4px",
-    "@border-radius-large": "6px",
+    "@border-radius-base": "3px",
+    "@border-radius-large": "3px",
     "@border-radius-small": "3px",
     "@component-active-color": "#fff",
     "@component-active-bg": "@brand-primary",
@@ -378,6 +378,7 @@
     "@blockquote-border-color": "@gray-lighter",
     "@page-header-border-color": "@gray-lighter",
     "@dl-horizontal-offset": "@component-offset-horizontal",
+    "@dl-horizontal-breakpoint": "@grid-float-breakpoint",
     "@hr-border": "@gray-lighter"
   },
   "css": [
@@ -430,5 +431,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://127.0.0.1:50019/customize/?id=0188e51e97499ab33ccbe6e9892c6e54"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=f908c1130919efea75d7d71ab05b0619"
 }
